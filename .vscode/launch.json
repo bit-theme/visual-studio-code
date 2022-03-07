@@ -6,11 +6,26 @@
 	"version": "0.2.0",
   "configurations": [
     {
-      "name": "Extension",
+      "name": "Lauch Theme",
       "type": "extensionHost",
       "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      // "preLaunchTask": "yarn: build",
       "args": [
-        "--extensionDevelopmentPath=${workspaceFolder}"
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "--disable-extensions",
+        "${file}"
+      ]
+    },
+    {
+      "name": "Lauch Theme (with extensions)",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      // "preLaunchTask": "yarn: build",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "${file}"
       ]
     }
   ]
