@@ -1,0 +1,22 @@
+{
+  "name": "bit-theme",
+  "displayName": "Bit Theme",
+  "description": "A Dark Theme created by pedro-henrique-sb.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bit Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bit-theme-color-theme.json"
+      }
+    ]
+  }
+}
