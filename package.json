@@ -1,22 +1,65 @@
 {
+  "icon": "icon.png",
   "name": "bit-theme",
   "displayName": "Bit Theme",
   "description": "A Dark Theme created by pedro-henrique-sb.",
-  "version": "0.0.1",
+  "homepage": "https://github.com/bit-theme/bit-theme",
+  "version": "1.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bit-theme/visual-studio-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bit-theme/visual-studio-code/issues"
+  },
+  "author": {
+    "name": "Pedro Henrique",
+    "email": "pyter.dev@gmail.com",
+    "url": "https://github.com/pedro-henrique-sb"
+  },
+  "maintainers": [
+    "Pedro Henrique <pyter.dev@gmail.com>"
+  ],
   "engines": {
+    "node": ">=12",
     "vscode": "^1.65.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "Bit",
+    "Bit Themes",
+    "bit",
+    "bit theme",
+    "theme",
+    "color theme"
+  ],
+  "galleryBanner": {
+    "color": "#131313",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Bit Theme",
+        "label": "Bit",
         "uiTheme": "vs-dark",
-        "path": "./themes/bit-theme-color-theme.json"
+        "path": "./themes/bit-default.json"
+      },
+      {
+        "label": "Bit Intense",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bit-intense.json"
+      },
+      {
+        "label": "Bit Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bit-soft.json"
       }
     ]
-  }
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "__metadata": {}
 }
