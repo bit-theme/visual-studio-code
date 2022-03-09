@@ -60,6 +60,7 @@
     ]
   },
   "scripts": {
+    "prepare": "husky install",
     "lint": "eslint .",
     "dev": "ts-node-dev --respawn --rs dist/scripts/build.js",
     "build:ts": "yarn lint && yarn tsc",
