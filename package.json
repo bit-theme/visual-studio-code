@@ -60,7 +60,10 @@
     ]
   },
   "scripts": {
-    "dev": "ts-node-dev --respawn dist/scripts/build.js"
+    "lint": "eslint .",
+    "dev": "ts-node-dev --respawn --rs dist/scripts/build.js",
+    "build:ts": "yarn lint && yarn tsc",
+    "build": "yarn build:ts && node dist/scripts/build.js"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
