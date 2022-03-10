@@ -1,4 +1,15 @@
+.github/**
+.husky/**
 .vscode/**
 .vscode-test/**
+.commitlintrc.json
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitattributes
 .gitignore
-vsc-extension-quickstart.md
+tsconfig.json
+yarn.lock
+node_modules/**
+dist/**
+src/**
