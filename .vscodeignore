@@ -10,6 +10,7 @@
 .gitignore
 tsconfig.json
 yarn.lock
+demo.png
 node_modules/**
 dist/**
 src/**
