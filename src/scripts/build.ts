@@ -15,7 +15,7 @@ if (!existsSync(THEME_DIR)) {
 
 Promise.all([
   writeFile(
-    join(THEME_DIR, 'bit.json'),
+    join(THEME_DIR, 'bit-default.json'),
     defaultThemeContent
   ),
   writeFile(
