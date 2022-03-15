@@ -13,6 +13,7 @@
   "bugs": {
     "url": "https://github.com/bit-theme/visual-studio-code/issues"
   },
+  "publisher": "bit-theme",
   "author": {
     "name": "Pedro Henrique",
     "email": "pyter.dev@gmail.com",
