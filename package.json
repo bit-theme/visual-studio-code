@@ -65,7 +65,9 @@
     "lint": "eslint .",
     "dev": "ts-node-dev --respawn --rs dist/scripts/build.js",
     "build:ts": "yarn lint && yarn tsc",
-    "build": "yarn build:ts && node dist/scripts/build.js"
+    "build": "yarn build:ts && node dist/scripts/build.js",
+    "vscode:prepublish": "yarn Build",
+    "publish": "vsce publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
