@@ -71,7 +71,7 @@
     "build": "yarn build:ts && node dist/scripts/build.js",
     "package": "vsce package",
     "vscode:prepublish": "yarn build",
-    "publish": "vsce publish"
+    "vsce:publish": "vsce publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
