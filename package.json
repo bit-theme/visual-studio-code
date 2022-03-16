@@ -69,7 +69,7 @@
     "dev": "ts-node-dev --respawn --rs dist/scripts/build.js",
     "build:ts": "yarn lint && yarn tsc",
     "build": "yarn build:ts && node dist/scripts/build.js",
-    "package": "vsce package",
+    "package": "vsce package -o ./bin/",
     "vscode:prepublish": "yarn build",
     "vsce:publish": "vsce publish"
   },
